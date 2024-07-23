@@ -17,7 +17,7 @@ Looking forward, I'm pumped to keep leveling up in software development by divin
 Some of my projects include:  
 - make-sreact-app -> A small, clutter-free react app maker
 - Verge-Dark - Atom-Like VS Theme
-- VisionMate - World Navigation for the Blind using Computer Vision
+- VisionM - World Navigation for the Blind using Computer Vision
 - Cache it - View web archived versions with ease
 - Home Server - Way to learn server upkeep
 - My Blog - I've started this thing fresh!
