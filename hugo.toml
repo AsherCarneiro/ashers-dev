@@ -1,0 +1,82 @@
+baseURL = "https://mywebsite.com/"
+languageCode = "en-us"
+title = "Asher Carneiro"
+theme = "terminal"
+timeZone = "Asia/Kolkata"
+
+[[menus.main]]
+  identifier = "about"
+  name = "~/about 🤓"
+  url = "/about.html"
+  weight = 20
+
+[[menus.main]]
+  identifier = "blog"
+  name = "~/blog 📖"
+  url = "https://dev.to/ashercarneiro"
+  weight = 30
+
+[[menus.main]]
+  identifier = "say-hi"
+  name = "~/say-hi 🤠"
+  url = "mailto:carneiroasher@gmail.com"
+  weight = 30
+
+[[menus.main]]
+  identifier = "resume"
+  name = "~/resume 📑"
+  url = "https://www.google.com"
+  weight = 40
+
+paginate = 10
+
+[permalinks]
+  blog = "/blog/:year/:month/:day/:title/"
+
+[taxonomies]
+  tag = "tags"
+  author = "authors"
+
+[indexes]
+  tag = "tags"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+[markup.goldmark]
+  smartypants = true
+  fractions = true
+  superscript = true
+  unsafe = true
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/AsherCarneiro"
+
+[[params.social]]
+  name = "x"
+  url = "https://x.com/AsherCarneiro"
+
+#[[params.social]]
+#  name = "youtube"
+#  url = "https://youtube.com/myusername"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/imasher"
+
+[[params.social]]
+  name = "buy me a coffee"
+  url = "https://www.buymeacoffee.com/AsherCarneiro"
+
+[params]
+  disqus = "mydisquscode"
+  ignoreFiles = [
+    "themes/terminal/content"
+  ]
+  
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
