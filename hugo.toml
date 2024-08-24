@@ -25,7 +25,7 @@ timeZone = "Asia/Kolkata"
 [[menus.main]]
   identifier = "resume"
   name = "~/resume 📑"
-  url = "https://www.google.com"
+  url = "https://www.linkedin.com/in/imasher/"
   weight = 40
 
 paginate = 10
